@@ -21,7 +21,7 @@ section{
 }
 
 .motherContainer{
-    max-width: 375px;
+    max-width: 320px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
     padding-bottom: 2rem;
@@ -47,6 +47,11 @@ section{
     color: white;
     font-size: 1.4rem;
     font-weight: 600;
+    transition:  .4s ease-in-out;
+}
+.equilibriumHeader:hover{
+    color: hsl(178, 100%, 50%);
+    transform: scale(0.97);
 }
 
 .equilibriumText{
@@ -98,3 +103,4 @@ ul{
     border: 1px solid white;
     border-radius: 50%;
 }
+
