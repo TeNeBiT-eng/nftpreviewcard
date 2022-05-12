@@ -54,10 +54,6 @@ section{
     line-height: 1.6;
 }
 
-.ulContainer{
-    border: 8px hsl(215, 32%, 27%);
-}
-
 .subContainer ul{
     display: flex;
     justify-content: space-between;
@@ -69,8 +65,17 @@ section{
     font-size: 1.1rem;
 }
 
-/* hr{
+.time_left{
+    color: hsl(215, 51%, 70%);
+}
+
+hr{
     color: hsl(215, 32%, 27%);
     width: 85%;
-    margin: 0 auto;    
-} */
+    margin: 0 auto;
+    margin-top: 0.7rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
