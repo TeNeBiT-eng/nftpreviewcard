@@ -104,3 +104,11 @@ ul{
     border-radius: 50%;
 }
 
+.jules_wyvern{
+    transition: ease-in-out .4s;
+}
+
+.jules_wyvern:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
