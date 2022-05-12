@@ -51,4 +51,5 @@ section{
 .equilibriumText{
     padding-top: 1.2rem;
     color: hsl(215, 51%, 70%);
+    line-height: 1.6;
 }
