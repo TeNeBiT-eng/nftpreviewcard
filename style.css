@@ -55,10 +55,12 @@ section{
     line-height: 1.6;
 }
 
-.subContainer ul{
+ul{
     display: flex;
     justify-content: space-between;
-    padding-top: 1rem;   
+    padding-top: 1rem;
+    border-bottom: 0.1px solid hsl(215, 51%, 70%);
+    padding-bottom: 1rem;   
 }
 
 .ETH_value{
