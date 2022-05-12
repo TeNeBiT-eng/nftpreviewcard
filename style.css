@@ -20,7 +20,7 @@ section{
 }
 
 .motherContainer{
-    max-width: 320px;
+    max-width: 375px;
     background-color: hsl(216, 50%, 16%);
     border-radius: 10px;
 }
@@ -37,5 +37,6 @@ section{
 }
 
 .subContainer{
-    padding: 20px;
+    width: 85%;
+    margin: 0 auto;
 }
