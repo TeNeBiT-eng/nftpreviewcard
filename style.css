@@ -5,3 +5,21 @@
     font-family: 'Outfit', sans-serif;
     list-style-type: none;
 }
+
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px 30px;
+}
+
+.motherContainer{
+    max-width: 375px;
+    background-color: hsl(216, 50%, 16%);
+}
